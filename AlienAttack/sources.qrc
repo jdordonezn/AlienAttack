@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/Pictures">
+        <file>Sprites juego/salto_izquierda.png</file>
+        <file>Sprites juego/salto_derecha.png</file>
+        <file>Sprites juego/izquierda.png</file>
+        <file>Sprites juego/granada2.png</file>
+        <file>Sprites juego/granada.png</file>
+        <file>Sprites juego/derecha.png</file>
+        <file>Sprites juego/caminar4.png</file>
+        <file>Sprites juego/caminar3.png</file>
+        <file>Sprites juego/caminar2.png</file>
+        <file>Sprites juego/caminar1.png</file>
+        <file>Sprites juego/bala4.png</file>
+        <file>Sprites juego/bala3.png</file>
+        <file>Sprites juego/bala2.png</file>
+        <file>Sprites juego/bala1.png</file>
+        <file>Sprites juego/abajo_izquierda.png</file>
+        <file>Sprites juego/abajo_derecha.png</file>
+        <file>Sprites juego/alien5.gif</file>
+        <file>Sprites juego/alien4.gif</file>
+        <file>Sprites juego/alien3.gif</file>
+        <file>Sprites juego/alien2.gif</file>
+        <file>Sprites juego/fondo4.png</file>
+        <file>Sprites juego/fondo3.png</file>
+        <file>Sprites juego/fondo2.png</file>
+        <file>Sprites juego/fondo1.png</file>
+        <file>Sprites juego/fondos/fondo7.gif</file>
+        <file>Sprites juego/fondos/fondo6.gif</file>
+        <file>Sprites juego/fondos/fondo5.gif</file>
+        <file>Sprites juego/fondos/fondo4.png</file>
+        <file>Sprites juego/fondos/fondo3.png</file>
+        <file>Sprites juego/fondos/fondo2.png</file>
+        <file>Sprites juego/fondos/fondo.gif</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>gun.wav</file>
+    </qresource>
+</RCC>
