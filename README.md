@@ -1,3 +1,3 @@
 # AlienAttack
-Para mover el jugador utilice las teclas W,A,D para lanzar bombas utilice C, para disparar espacio.
-jyuhjk
+Para mover el jugador utilice las teclas A,W,D. Para lanzar bombas utilice C y para disparar SPACE.
+
