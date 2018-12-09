@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/Pictures"/>
+    <qresource prefix="/">
+        <file>Pictures/izquierda.png</file>
+        <file>Pictures/derecha.png</file>
+        <file>Pictures/bala1.png</file>
+        <file>Pictures/alien52.gif</file>
+        <file>Pictures/alien51.gif</file>
+        <file>Pictures/fondo.gif</file>
+        <file>Pictures/explosion2.gif</file>
+        <file>Pictures/granade.gif</file>
+        <file>Pictures/explosion1.gif</file>
+        <file>Pictures/izquierda2.gif</file>
+        <file>Pictures/izquierda1.gif</file>
+        <file>Pictures/derecha2.gif</file>
+        <file>Pictures/derecha1.gif</file>
+        <file>Pictures/original.gif</file>
+        <file>Pictures/fondo7.gif</file>
+        <file>Pictures/fondo6.gif</file>
+        <file>Pictures/fondo5.gif</file>
+        <file>Pictures/fondo4.gif</file>
+        <file>Pictures/alien54.gif</file>
+        <file>Pictures/alien53.gif</file>
+        <file>Pictures/Alien1.gif</file>
+        <file>Pictures/Alien2.gif</file>
+        <file>Pictures/hizquierda1.gif</file>
+        <file>Pictures/hderecha1.gif</file>
+    </qresource>
+    <qresource prefix="/Sound">
+        <file>gun.wav</file>
+    </qresource>
+</RCC>
