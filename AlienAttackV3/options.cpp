@@ -1,0 +1,76 @@
+#include "options.h"
+#include "ui_options.h"
+
+options::options(QWidget *parent) :
+    QMainWindow(parent),
+    ui(new Ui::options)
+{
+    ui->setupUi(this);
+    ui->graphicsView->setStyleSheet("background: transparent");
+    movie=new QMovie(":/Pictures/tenor.gif");
+    ui->label_options->setMovie(movie);
+    movie->start();
+
+    QFontDatabase::addApplicationFont(":/fonts/Pictures/Audiowide.ttf");
+    QFont pixel = QFont("Audiowide",60,5);
+    ui->label->setFont(pixel);
+
+}
+
+options::~options()
+{
+    delete ui;
+}
+
+void options::on_pushButton_clicked(){
+
+    switch (op) {
+        case(1):
+            level_1=new MainWindow();
+            level_1->show();
+            break;
+        case(2):
+            log=new login();
+            log->setLvlReal(2);
+            log->show();
+            break;
+        case (3):
+            log=new login();
+            log->setLvlReal(3);
+            log->show();
+            break;
+    };
+}
+
+void options::on_pushButton_2_clicked(){
+
+    switch (op) {
+        case(1):
+            level_1M=new level1Multiplayer();
+            level_1M->show();
+            break;
+        case(2):
+            log=new login();
+            log->setLvlReal(2);
+            log->setMultiplayer(true);
+            log->show();
+            break;
+        case(3):
+            log=new login();
+            log->setLvlReal(3);
+            log->setMultiplayer(true);
+            log->show();
+            break;
+    };
+
+}
+
+int options::getOp() const
+{
+    return op;
+}
+
+void options::setOp(int value)
+{
+    op = value;
+}
